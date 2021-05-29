@@ -4,7 +4,8 @@ This project resolves the problem of manual labelling, by using a text classifie
 The BeautifulSoup and Unescape are used to clean the raw email body. The basic preprocessing is done usign NLTK(tokenizaiton), gensim(simple preprocess and stop words removal), Spacy(lemmitizaiton). The TfIdf vectorizer is used to vectorize the text data followed by Chi2 for 1000 optimal feature selection, and then applied the classification algorithms. 
 Deployed the model using Flask. 
 
-**Steps to use the API: **
+**Steps to use the API:**
+
 Steps to build:
 1. Build docker->sudo docker build -t classifier .
 2. Start docker->sudo docker run -p 9999:9999 classifier
