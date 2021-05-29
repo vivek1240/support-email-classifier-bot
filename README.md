@@ -1,14 +1,14 @@
 # support-email-classifier-bot
-There are nearly **500 emails** fired each day to **yatra's support team** from the customers having various queries. 
+This project is a part of my work as a data science intern at **Yatra.com**
 
-Support team **manually resolves** these queries and labels them with the following categories, cancellation, Refund, Booking Information, Eticket/Voucher, Promotions, Website Error, Amendments, etc, accordingly. 
+There are nearly **500 emails** fired each day to **yatra’s support team** from customers with various queries.
 
-This project resolves the **problem of manual labelling**, by using a **multi-class text classifier** to classify text to a suitable category accurately.
+The support team **manually resolves** these queries and labels them with the following categories, cancellation, Refund, Booking Information, Eticket/Voucher, Promotions, Website Error, Amendments, etc., accordingly.
 
-The BeautifulSoup and Unescape are used to clean the raw email body. The basic preprocessing is done usign **NLTK**(tokenizaiton), **gensim**(simple preprocess and stop words removal), **Spacy**(lemmitizaiton).
+This project **resolves manual labeling** using a **multi-class text classifier** to classify text to a suitable category accurately.
 
-The **TfIdf vectorizer** is used to vectorize the text data followed by **Chi2** for 1000 optimal feature selection, and then applied the **classification algorithms**. 
-Deployed the model using **Flask**. 
+The **BeautifulSoup** and **Unescape** are used to **clean** the raw email body. The basic **preprocessing** is done using **NLTK**(tokenization), **gensim**(simple preprocess and stop words removal), **Spacy**(lemmatization).
+The **TF-IDF vectorizer** is used to **vectorize the text** data followed by **Chi2** for 1000 **optimal feature selection** and then applied the **classification algorithms**. Deployed the model using **Flask**. 
 
 For Indepth understanding refer my article published https://vwake2017iitkgp.medium.com/multiclass-email-classification-from-scratch-4bc0f0c6c64d
 
