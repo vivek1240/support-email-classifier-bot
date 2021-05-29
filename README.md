@@ -10,6 +10,8 @@ The BeautifulSoup and Unescape are used to clean the raw email body. The basic p
 The **TfIdf vectorizer** is used to vectorize the text data followed by **Chi2** for 1000 optimal feature selection, and then applied the **classification algorithms**. 
 Deployed the model using **Flask**. 
 
+For Indepth understanding refer my article published https://vwake2017iitkgp.medium.com/multiclass-email-classification-from-scratch-4bc0f0c6c64d
+
 **Steps to use the API:**
 
 Steps to build:
